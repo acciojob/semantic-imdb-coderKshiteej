@@ -35,12 +35,19 @@
       padding: 20px;
     }
 
-    section {
+    section, details {
       margin-bottom: 30px;
       background-color: #ffffff;
       padding: 15px;
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    summary {
+      font-size: 1.2em;
+      font-weight: bold;
+      cursor: pointer;
+      margin-bottom: 10px;
     }
 
     aside {
@@ -71,12 +78,13 @@
   </nav>
 
   <main>
-    <section id="summary">
-      <h2>Summary</h2>
+    <!-- ✅ Replaced section with semantic details + summary -->
+    <details>
+      <summary>Summary</summary>
       <p>
         Inception follows Dom Cobb, a skilled thief who specializes in stealing secrets from deep within the subconscious during dreams. When offered a chance to have his criminal record erased, he must perform the impossible: <em>inception</em>—planting an idea into someone's mind. As the team dives deeper into dream layers, reality begins to blur.
       </p>
-    </section>
+    </details>
 
     <section id="actor">
       <h2>Actors</h2>
