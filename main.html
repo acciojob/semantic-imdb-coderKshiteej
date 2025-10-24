@@ -1,16 +1,106 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <meta charset="UTF-8">
+  <title>Inception - Movie Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
 
+    header {
+      background-color: #011e29;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #033c4f;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 30px;
+      background-color: #ffffff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    aside {
+      background-color: #e0e0e0;
+      padding: 15px;
+      margin: 20px;
+      border-left: 5px solid #011e29;
+    }
+
+    footer {
+      background-color: #011e29;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <header>
+    <h1>Inception</h1>
+    <p>A mind-bending thriller by Christopher Nolan</p>
+  </header>
+
+  <nav>
+    <a href="#actor" id="nav-actor">Actors</a>
+    <a href="#quote" id="nav-quote">Quotes</a>
+  </nav>
+
+  <main>
+    <section id="summary">
+      <h2>Summary</h2>
+      <p>
+        Inception follows Dom Cobb, a skilled thief who specializes in stealing secrets from deep within the subconscious during dreams. When offered a chance to have his criminal record erased, he must perform the impossible: <em>inception</em>—planting an idea into someone's mind. As the team dives deeper into dream layers, reality begins to blur.
+      </p>
+    </section>
+
+    <section id="actor">
+      <h2>Actors</h2>
+      <p>
+        <strong>Leonardo DiCaprio</strong> as Dom Cobb, <strong>Joseph Gordon-Levitt</strong> as Arthur, <strong>Elliot Page</strong> as Ariadne, <strong>Tom Hardy</strong> as Eames, and <strong>Ken Watanabe</strong> as Saito.
+      </p>
+    </section>
+
+    <section id="quote">
+      <h2>Favorite Quote</h2>
+      <p>
+        “You mustn’t be afraid to dream a little bigger, darling.” — <strong>Eames</strong>
+      </p>
+    </section>
+  </main>
+
+  <aside>
+    <p><strong>IMDb Rating:</strong> 8.8/10</p>
+    <p><strong>Release Date:</strong> July 16, 2010</p>
+  </aside>
+
+  <footer>
+    <p>Produced by: <strong>Emma Thomas</strong></p>
+  </footer>
 
 </body>
-
 </html>
